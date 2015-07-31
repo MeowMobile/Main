@@ -1,0 +1,15 @@
+machine:
+  node:
+    version: v0.10.26
+  ruby:
+    version: 2.1.2
+dependencies:
+    post:
+    - npm install -g gulp
+    - bower install
+deployment:
+    branch: development
+    commands:
+        - npm install -g cordova ionic
+        - ionic platform add android
+        - ionic build android		
