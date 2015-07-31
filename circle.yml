@@ -8,7 +8,6 @@ dependencies:
     - npm install -g gulp
     - bower install
 deployment:
-    branch: main
     commands:
         - npm install -g cordova ionic
         - ionic platform add android
