@@ -10,5 +10,4 @@ dependencies:
 deployment:
     commands:
         - npm install -g cordova ionic
-        - ionic platform add android
-        - ionic build android		
+        - ionic upload --email $IONIC_EMAIL --password $IONIC_PASSWORD
